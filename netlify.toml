@@ -1,0 +1,7 @@
+[build]
+  command = "echo 'Build completed'"
+  functions = "netlify/functions"
+  publish = "."
+
+[functions]
+  python_version = "3.10"
